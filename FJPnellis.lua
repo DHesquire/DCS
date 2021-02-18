@@ -630,3 +630,335 @@ RangeT6608:Start()
 RangeT6609=RANGE:New('T66-09')
 RangeT6609:AddBombingTargetGroup('66-09', 25)
 RangeT6609:Start()
+
+--
+
+-- Range T71-03
+RangeT7103=RANGE:New('T71-03')
+RangeT7103:AddBombingTargetGroup('71-03', 25)
+RangeT7103:Start()
+
+--
+
+-- Range T71-07
+RangeT7107=RANGE:New('T71-07')
+RangeT7107:AddBombingTargetGroup('71-07', 25)
+RangeT7107:Start()
+
+--
+
+-- Range T71-08
+RangeT7108=RANGE:New('T71-08')
+RangeT7108:AddBombingTargetGroup('71-08', 25)
+RangeT7108:Start()
+
+--
+
+-- Range T71-09
+RangeT7109=RANGE:New('T71-09')
+RangeT7109:AddBombingTargetGroup('71-09', 25)
+RangeT7109:Start()
+
+--
+
+-- Range T71-12
+RangeT7112=RANGE:New('T71-12')
+RangeT7112:AddBombingTargetGroup('71-12', 25)
+RangeT7112:Start()
+
+--
+
+-- Range T71-13
+local BTT7113={"71-13 Fuel Tank #001", "71-13 Fuel Tank #002", "71-13 POL"}
+RangeT7113=RANGE:New('T71-13')
+RangeT7113:AddBombingTargetGroup('71-13', 25)
+RangeT7113:AddBombingTargets(BTT7113, 25)
+RangeT7113:Start()
+
+--
+
+-- Range T71-14
+RangeT7114=RANGE:New('T71-14')
+RangeT7114:AddBombingTargetGroup('71-14', 25)
+RangeT7114:Start()
+
+--
+
+-- Range T71-21
+RangeT7121=RANGE:New('T71-21')
+RangeT7121:AddBombingTargetGroup('71-21', 25)
+RangeT7121:Start()
+
+--
+
+-- Range T71-22
+local BTT7122={"71-22 T25"}
+RangeT7122=RANGE:New('T71-22')
+RangeT7122:AddBombingTargetGroup('71-22', 25)
+RangeT7122:AddBombingTargets(BTT7122, 25)
+RangeT7122:Start()
+
+--
+
+-- Range T71-23
+RangeT7123=RANGE:New('T71-23')
+RangeT7123:AddBombingTargetGroup('71-23', 25)
+RangeT7123:Start()
+
+--
+
+-- Range T71-24
+RangeT7124=RANGE:New('T71-24')
+RangeT7124:AddBombingTargetGroup('71-24', 25)
+RangeT7124:Start()
+
+--
+
+-- Range T71-25
+RangeT7125=RANGE:New('T71-25')
+RangeT7125:AddBombingTargetGroup('71-25', 25)
+RangeT7125:Start()
+
+--
+
+-- Range T71-26
+RangeT7126=RANGE:New('T71-26')
+RangeT7126:AddBombingTargetGroup('71-26', 25)
+RangeT7126:Start()
+
+--
+
+-- Range T74-01
+RangeT7401=RANGE:New('T74-01')
+RangeT7401:AddBombingTargetGroup('74-01', 25)
+RangeT7401:Start()
+
+--
+
+-- Range T74-03
+RangeT7403=RANGE:New('T74-03')
+RangeT7403:AddBombingTargetGroup('74-03', 25)
+RangeT7403:Start()
+
+--
+
+-- Range T74-04
+RangeT7404=RANGE:New('T74-04')
+RangeT7404:AddBombingTargetGroup('74-04', 25)
+RangeT7404:Start()
+
+--
+
+-- Range T74-06
+RangeT7406=RANGE:New('T74-06')
+RangeT7406:AddBombingTargetGroup('74-06', 25)
+RangeT7406:Start()
+
+--
+
+-- Range T74-08
+RangeT7408=RANGE:New('T74-08')
+RangeT7408:AddBombingTargetGroup('74-08', 25)
+RangeT7408:Start()
+
+--
+
+-- Range T74-11
+RangeT7411=RANGE:New('T74-11')
+RangeT7411:AddBombingTargetGroup('74-11', 25)
+RangeT7411:Start()
+
+--
+
+-- Range T74-21
+RangeT7421=RANGE:New('T74-21')
+RangeT7421:AddBombingTargetGroup('74-21', 25)
+RangeT7421:Start()
+
+--
+
+-- Range T74-25
+RangeT7425=RANGE:New('T74-25')
+RangeT7425:AddBombingTargetGroup('74-25', 25)
+RangeT7425:Start()
+
+--
+
+-- Range T74-26
+RangeT7426=RANGE:New('T74-26')
+RangeT7426:AddBombingTargetGroup('74-26', 25)
+RangeT7426:Start()
+
+--
+
+-- Range T74-27
+RangeT7427=RANGE:New('T74-27')
+RangeT7427:AddBombingTargetGroup('74-27', 25)
+RangeT7427:Start()
+
+--
+
+-- Range T74-29
+RangeT7429=RANGE:New('T74-29')
+RangeT7429:AddBombingTargetGroup('74-29', 25)
+RangeT7429:Start()
+
+--
+
+-- Range T74-30
+RangeT7430=RANGE:New('T74-30')
+RangeT7430:AddBombingTargetGroup('74-30', 25)
+RangeT7430:Start()
+
+--
+
+-- Range T74-32
+RangeT7432=RANGE:New('T74-32')
+RangeT7432:AddBombingTargetGroup('74-32', 25)
+RangeT7432:Start()
+
+--
+
+-- Range T74-33
+RangeT7433=RANGE:New('T74-33')
+RangeT7433:AddBombingTargetGroup('74-33', 25)
+RangeT7433:Start()
+
+--
+
+-- Range T74-36
+RangeT7436=RANGE:New('T74-36')
+RangeT7436:AddBombingTargetGroup('74-36', 25)
+RangeT7436:Start()
+
+--
+
+-- Range T74-39
+RangeT7439=RANGE:New('T74-39')
+RangeT7439:AddBombingTargetGroup('74-39', 25)
+RangeT7439:Start()
+
+--
+
+-- Range T74-42
+RangeT7442=RANGE:New('T74-42')
+RangeT7442:AddBombingTargetGroup('74-42', 25)
+RangeT7442:Start()
+
+--
+
+-- Range T74-47
+local BTT7447={'74-47-121', '74-47-122'}
+RangeT7447=RANGE:New('T74-47')
+RangeT7447:AddBombingTargets(BTT7447, 25)
+RangeT7447:Start()
+
+--
+
+-- Range T75-03
+local BTT7503={"75-03 T18"}
+RangeT7503=RANGE:New('T75-03')
+RangeT7503:AddBombingTargetGroup('75-03', 25)
+RangeT7503:AddBombingTargets(BTT7503, 25)
+RangeT7503:Start()
+
+--
+
+-- Range T75-04
+RangeT7504=RANGE:New('T75-04')
+RangeT7504:AddBombingTargetGroup('75-04', 25)
+RangeT7504:Start()
+
+--
+
+-- Range T75-06
+RangeT7506=RANGE:New('T75-06')
+RangeT7506:AddBombingTargetGroup('75-06', 25)
+RangeT7506:Start()
+
+--
+
+-- Range T75-08
+RangeT7508=RANGE:New('T75-08')
+RangeT7508:AddBombingTargetGroup('75-08', 25)
+RangeT7508:Start()
+
+--
+
+-- Range T75-10
+local BTT7510={"75-10 T3", "75-10 T4", "75-10 T5"}
+RangeT7510=RANGE:New('T75-10')
+RangeT7510:AddBombingTargetGroup('75-10', 25)
+RangeT7510:AddBombingTargets(BTT7510, 25)
+RangeT7510:Start()
+
+--
+
+-- Range T75-15
+RangeT7515=RANGE:New('T75-15')
+RangeT7515:AddBombingTargetGroup('75-15', 25)
+RangeT7515:Start()
+
+--
+
+-- Range T75-16
+RangeT7516=RANGE:New('T75-16')
+RangeT7516:AddBombingTargetGroup('75-16', 25)
+RangeT7516:Start()
+
+--
+
+-- Range T75-19
+RangeT7519=RANGE:New('T75-19')
+RangeT7519:AddBombingTargetGroup('75-19', 25)
+RangeT7519:Start()
+
+--
+
+-- Range T75-20
+RangeT7520=RANGE:New('T75-20')
+RangeT7520:AddBombingTargetGroup('75-20', 25)
+RangeT7520:Start()
+
+--
+
+-- Range T75-29
+RangeT7529=RANGE:New('T75-29')
+RangeT7529:AddBombingTargetGroup('75-29', 25)
+RangeT7529:Start()
+
+--
+
+-- Range T75-32
+RangeT7532=RANGE:New('T75-32')
+RangeT7532:AddBombingTargetGroup('75-32', 25)
+RangeT7532:Start()
+
+--
+
+-- Range T75-34
+RangeT7534=RANGE:New('T75-34')
+RangeT7534:AddBombingTargetGroup('75-34', 25)
+RangeT7534:Start()
+
+--
+
+-- Range T75-43
+RangeT7543=RANGE:New('T75-43')
+RangeT7543:AddBombingTargetGroup('75-43', 25)
+RangeT7543:Start()
+
+--
+
+-- Range T75-46
+RangeT7546=RANGE:New('T75-46')
+RangeT7546:AddBombingTargetGroup('75-46', 25)
+RangeT7546:Start()
+
+--
+
+-- Range T75-47
+RangeT7547=RANGE:New('T75-47')
+RangeT7547:AddBombingTargetGroup('75-47', 25)
+RangeT7547:AddBombingTargetGroup("75-47 #001", 25)
+RangeT7547:Start()
