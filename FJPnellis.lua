@@ -56,7 +56,7 @@ atisSilverbow:Start()
 -- RANGES
 -- Range 61B
 local BT61B={"61-01 Aircraft #001", "61-01 Aircraft #002"}
-Range61=RANGE:New('61')
+Range61=RANGE:New('R61 (341.925MHz)')
 Range61:AddBombingTargetGroup(GROUP:FindByName("61-01"), 25)
 Range61:AddBombingTargetGroup(GROUP:FindByName("61-03"), 25)
 Range61:AddBombingTargets(BT61B, 25)
@@ -68,7 +68,7 @@ Range61:Start()
 --
 
 -- Range 62A
-Range62=RANGE:New('62')
+Range62=RANGE:New('R62 (234.250MHz)')
 Range62:AddBombingTargetGroup(GROUP:FindByName("62-01"), 25)
 Range62:AddBombingTargetGroup(GROUP:FindByName("62-02"), 25)
 Range62:AddBombingTargetGroup(GROUP:FindByName("62-04"), 25)
@@ -127,7 +127,7 @@ Range62:Start()
 local SPT63BL={"R63B Strafe Lane L1", "R63B Strafe Lane L2", "R63B Strafe Lane L3"}
 local SPT63BR={"R63B Strafe Lane R1", "R63B Strafe Lane R2", "R63B Strafe Lane R3"}
 local BTT63B={'R63BEC', 'R63BWC', "R63B Hard Target"}
-Range63=RANGE:New('63')
+Range63=RANGE:New('R63 (361.600MHz)')
 Range63:AddBombingTargetGroup(GROUP:FindByName("63-01"), 25)
 Range63:AddBombingTargetGroup(GROUP:FindByName("63-02"), 25)
 Range63:AddBombingTargetGroup(GROUP:FindByName("63-03"), 25)
@@ -151,7 +151,7 @@ Range63:Start()
 --
 
 -- Range 64A
-Range64=RANGE:New('64')
+Range64=RANGE:New('R64 (288.800MHz)')
 Range64:AddBombingTargetGroup(GROUP:FindByName("64-10"), 25)
 Range64:AddBombingTargetGroup(GROUP:FindByName("64-11"), 25)
 Range64:AddBombingTargetGroup(GROUP:FindByName("64-12"), 25)
@@ -184,7 +184,7 @@ Range64:Start()
 
 -- Range 65C
 local BTT6505={"65-05 Building #001", "65-05 Building #002", "65-05 Building #003", "65-05 Building #004", "65-05 Building #005", "65-05 Building #006", "65-05 Building #007", "65-05 Building #008", "65-05 Building #009"}
-Range65=RANGE:New('65')
+Range65=RANGE:New('R65 (225.450MHz)')
 Range65:AddBombingTargetGroup(GROUP:FindByName("65-01"), 25)
 Range65:AddBombingTargetGroup(GROUP:FindByName("65-02"), 25)
 Range65:AddBombingTargetGroup(GROUP:FindByName("65-03"), 25)
@@ -205,8 +205,8 @@ Range65:Start()
 
 --
 
--- Range 66
-Range66=RANGE:New('66')
+-- Range 66 (Leach Lake Tactics Range)
+Range66=RANGE:New('LLTR66 (381.100MHz)')
 Range66:AddBombingTargetGroup(GROUP:FindByName("66-01"), 25)
 Range66:AddBombingTargetGroup(GROUP:FindByName("66-02"), 25)
 Range66:AddBombingTargetGroup(GROUP:FindByName("66-03"), 25)
@@ -226,7 +226,7 @@ Range66:Start()
 -- Range 71S
 local BTT7113={"71-13 Fuel Tank #001", "71-13 Fuel Tank #002", "71-13 POL"}
 local BTT7122={"71-22 T25"}
-Range71=RANGE:New('71')
+Range71=RANGE:New('R71 (335.450MHz)')
 Range71:AddBombingTargetGroup(GROUP:FindByName("71-03"), 25)
 Range71:AddBombingTargetGroup(GROUP:FindByName("71-07"), 25)
 Range71:AddBombingTargetGroup(GROUP:FindByName("71-08"), 25)
@@ -251,7 +251,7 @@ Range71:Start()
 --
 
 -- Range 74B
-Range74=RANGE:New('74')
+Range74=RANGE:New('R74 (228.000MHz)')
 Range74:AddBombingTargetGroup(GROUP:FindByName("74-03"), 25)
 Range74:AddBombingTargetGroup(GROUP:FindByName("74-04"), 25)
 Range74:AddBombingTargetGroup(GROUP:FindByName("74-32"), 25)
@@ -284,7 +284,7 @@ Range74:Start()
 --
 
 -- Range 75E
-Range75=RANGE:New('75')
+Range75=RANGE:New('R75 (363.900MHz)')
 local BTT7510={"75-10 T3", "75-10 T4", "75-10 T5"}
 Range75:AddBombingTargetGroup(GROUP:FindByName("75-04"), 25)
 Range75:AddBombingTargetGroup(GROUP:FindByName("75-10"), 25)
@@ -318,7 +318,7 @@ Range75:Start()
 -- Range 76
 local BTT7601={"76-01 Bunker", "76-01 Fuel Tank #001", "76-01 Fuel Tank #002", "76-01 Fuel Tank #003", "76-01 Fuel Tank #004", "76-01 Fuel Tank #005", "76-01 Fuel Tank #006", "76-01 Fuel Tank #007", "76-01 Fuel Tank #008", "76-01 Fuel Tank #009", "76-01 Fuel Tank #010", "76-01 Fuel Tank #011", "76-01 Fuel Tank #012", "76-01 Fuel Tank #013", "76-01 Fuel Tank #014", "76-01 Fuel Tank #015", "76-01 Fuel Tank #016", "76-01 Fuel Tank #017", "76-01 Fuel Tank #018", "76-01 Fuel Tank #019", "76-01 Fuel Tank #020", "76-01 Fuel Tank #021", "76-01 Fuel Tank #022", "76-01 Fuel Tank #023", "76-01 Fuel Tank #024", "76-01 Fuel Tank #025", "76-01 Fuel Tank #026", "76-01 Fuel Tank #027", "76-01 Fuel Tank #028", "76-01 Fuel Tank #029", "76-01 Fuel Tank #030", "76-01 Fuel Tank #031", "76-01 Fuel Tank #032", "76-01 Fuel Tank #033", "76-01 Fuel Tank #034", "76-01 Fuel Tank #035", "76-01 Fuel Tank #036"}
 local BTT7611={"76-11 Fuel Tank #001", "76-11 Fuel Tank #002", "76-11 Fuel Tank #003", "76-11 Fuel Tank #004", "76-11 Fuel Tank #005", "76-11 Fuel Tank #006", "76-11 Fuel Tank #007", "76-11 Fuel Tank #008", "76-11 Fuel Tank #009", "76-11 Radio Tower"}
-Range76=RANGE:New('76')
+Range76=RANGE:New('R76 (354.300MHz)')
 Range76:AddBombingTargetGroup(GROUP:FindByName("76-01 #001"), 25)
 Range76:AddBombingTargetGroup(GROUP:FindByName("76-01 #002"), 25)
 Range76:AddBombingTargets(BTT7601, 25)
@@ -346,7 +346,7 @@ Range76:Start()
 
 -- Range ECS
 local BTT7702={"77-02 Tank #001", "77-02 Tank #002", "77-02 Tank #003"}
-Range77=RANGE:New('ECS')
+Range77=RANGE:New('ECS (293.500MHz)')
 Range77:AddBombingTargetGroup(GROUP:FindByName("77-01"), 25)
 Range77:AddBombingTargetGroup(GROUP:FindByName("77-02"), 25)
 Range77:AddBombingTargets(BTT7702, 25)
