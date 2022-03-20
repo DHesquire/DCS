@@ -63,6 +63,7 @@ Range61:AddBombingTargets(BT61B, 25)
 Range61:SetInstructorRadio(377.800, "RR-BLACKJACK")
 -- Range61:SetInstructorRadio(123.550, "RR-BLACKJACK")
 Range61:SetRangeControl(341.925, "RR-BLACKJACK")
+--Range61:SetRangeZone("zR61")
 Range61:Start()
 
 --
@@ -119,6 +120,7 @@ Range62:AddBombingTargetGroup(GROUP:FindByName("62-93"), 25)
 Range62:SetInstructorRadio(377.800, "RR-BLACKJACK")
 -- Range62:SetInstructorRadio(123.550, "RR-BLACKJACK")
 Range62:SetRangeControl(234.250, "RR-BLACKJACK")
+--Range62:SetRangeZone("zR62")
 Range62:Start()
 
 --
@@ -146,6 +148,7 @@ Range63:SetInstructorRadio(377.800, "RR-BLACKJACK")
 -- Range63:SetInstructorRadio(123.550, "RR-BLACKJACK")
 Range63:SetRangeControl(361.600, "RR-BLACKJACK")
 -- Range63:SetRangeControl(274.875, "RR-BLACKJACK")
+--Range63:SetRangeZone("zR63")
 Range63:Start()
 
 --
@@ -178,6 +181,7 @@ Range64:SetInstructorRadio(377.800, "RR-BLACKJACK")
 -- Range64:SetInstructorRadio(123.550, "RR-BLACKJACK")
 Range64:SetRangeControl(288.800, "RR-BLACKJACK")
 -- Range64:SetRangeControl(268.000, "RR-BLACKJACK")
+--Range64:SetRangeZone("zR64")
 Range64:Start()
 
 --
@@ -201,14 +205,17 @@ Range65:AddBombingTargetGroup(GROUP:FindByName("65-10"), 25)
 Range65:SetInstructorRadio(377.800, "RR-BLACKJACK")
 -- Range65:SetInstructorRadio(123.550, "RR-BLACKJACK")
 Range65:SetRangeControl(225.450, "RR-BLACKJACK")
+--Range65:SetRangeZone("zR65")
 Range65:Start()
 
 --
 
 -- Range 66 (Leach Lake Tactics Range)
+local BTT6601={"T66-01-1", "T66-01-2", "T66-01-3", "T66-01-4", "T66-01-5", "T66-01-6", "T66-01-7"}
+local BTT6602={"T66-02-1", "T66-02-2", "T66-02-3", "T66-02-4", "T66-02-5", "T66-02-6", "T66-02-7", "T66-02-8", "T66-02-9", "T66-02-10"}
 Range66=RANGE:New('LLTR66 (381.100MHz)')
-Range66:AddBombingTargetGroup(GROUP:FindByName("66-01"), 25)
-Range66:AddBombingTargetGroup(GROUP:FindByName("66-02"), 25)
+Range66:AddBombingTargets(BTT6601, 25)
+Range66:AddBombingTargets(BTT6602, 25)
 Range66:AddBombingTargetGroup(GROUP:FindByName("66-03"), 25)
 Range66:AddBombingTargetGroup(GROUP:FindByName("66-04"), 25)
 Range66:AddBombingTargetGroup(GROUP:FindByName("66-05"), 25)
@@ -219,6 +226,7 @@ Range66:AddBombingTargetGroup(GROUP:FindByName("66-09"), 25)
 Range66:SetInstructorRadio(348.700, "RR-JOSHUA")
 -- Range66:SetInstructorRadio(133.650, "RR-JOSHUA")
 Range66:SetRangeControl(381.100, "RR-JOSHUA")
+--Range66:SetRangeZone("zR66")
 Range66:Start()
 
 --
@@ -246,6 +254,7 @@ Range71:SetInstructorRadio(377.800, "RR-BLACKJACK")
 -- Range71:SetInstructorRadio(123.550, "RR-BLACKJACK")
 Range71:SetRangeControl(335.450, "RR-BLACKJACK")
 -- Range71:SetRangeControl(288.225, "RR-BLACKJACK")
+--Range71:SetRangeZone("zR71")
 Range71:Start()
 
 --
@@ -279,6 +288,7 @@ Range74:SetInstructorRadio(377.800, "RR-BLACKJACK")
 -- Range74:SetInstructorRadio(123.550, "RR-BLACKJACK")
 Range74:SetRangeControl(228.000, "RR-BLACKJACK")
 -- Range74:SetRangeControl(288.225, "RR-BLACKJACK")
+--Range74:SetRangeZone("zR74")
 Range74:Start()
 
 --
@@ -311,6 +321,7 @@ Range75:SetInstructorRadio(377.800, "RR-BLACKJACK")
 -- Range75:SetInstructorRadio(123.550, "RR-BLACKJACK")
 Range75:SetRangeControl(363.900, "RR-BLACKJACK")
 -- Range75:SetRangeControl(288.225, "RR-BLACKJACK")
+--Range75:SetRangeZone("zR75")
 Range75:Start()
 
 --
@@ -340,6 +351,7 @@ Range76:SetInstructorRadio(377.800, "RR-BLACKJACK")
 -- Range76:SetInstructorRadio(123.550, "RR-BLACKJACK")
 Range76:SetRangeControl(354.300, "RR-BLACKJACK")
 -- Range76:SetRangeControl(288.225, "RR-BLACKJACK")
+--Range76:SetRangeZone("zR76")
 Range76:Start()
 
 --
@@ -355,4 +367,5 @@ Range77:SetInstructorRadio(377.800, "RR-BLACKJACK")
 -- Range77:SetInstructorRadio(123.550, "RR-BLACKJACK")
 Range77:SetRangeControl(293.500, "RR-BLACKJACK")
 -- Range77:SetRangeControl(379.650, "RR-BLACKJACK")
+--Range77:SetRangeZone("zR77")
 Range77:Start()
